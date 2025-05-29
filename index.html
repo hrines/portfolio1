@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <meta name="description" content="mon portfolio etudiante">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À mon propos</a></li>
+                <li><a href="#projects">Mes realisations</a></li>
+                <li><a href="#contact">Mon contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="slider" id="home">
+        <img src="photo-1510915228340-29c85a43dcfe.jpg" alt="slider" class="slider-background">
+        <div class="text_sur_image">
+            <h1>Ines Hamza Reguig</h1>
+            <p>Etudiante en informatique</p>
+        </div>
+    </div>
+    
+    <section class="section" id="about">
+        <div class="boxed">
+           <div class="me">
+                <div class="w40">
+                    <div class="profile-image">
+                        <img src="IMG-20241101-WA0030.jpg" alt="Ines Hamza Reguig">
+                    </div>
+                </div>
+                <div class="w60">
+
+                    <h2>À mon propos</h2>
+
+                    <p>Je suis une étudiante en informatique passionnée par le développement web et la technologie. J'aime apprendre de nouvelles compétences et relever des défis. Mon objectif est de devenir une développeuse compétente et de contribuer à des projets innovants.</p>
+                </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="projects">
+        <div class="boxed text-center">
+            <h2>Mes realisations</h2>
+            <div class="flex">
+                <div class="w33 skills"> 
+                    <a href="../formulaire payement/index2.html" target="_blank">
+                        <img src="512536-icone-de-glyphe-de-paiement-noir-gratuit-vectoriel.jpg" alt="projet1" class="image-projet">
+                        <h3>Formulaire paiement</h3>
+                        <p>Ce formulaire simule un processus de paiement en ligne. HTML / CSS</p>
+                    </a>
+                </div>
+                <div class="w33 skills">
+                    <a href="../formulaire inscription/index3.html" target="_blank">
+                        <img src="istockphoto-1093003378-612x612.jpg" alt="projet2" class="image-projet">
+                        <h3>Formulaire inscription</h3>
+                        <p>Ce formulaire simule un processus d'inscription en ligne. HTML / CSS</p>
+                    </a>
+                </div>
+                <div class="w33 skills">
+                    <a href="../GALLERIE/index.html" target="_blank">
+                        <img src="360_F_1045695842_bdgilF7GfYTqfeFSo5Hmu3KZ09Q0K9lP.jpg" alt="projet3" class="image-projet">
+                        <h3>Gallerie</h3>
+                        <p>De la Tour Eiffel aux quais de seine, cette galerie capture la magie de Paris. Cliquez pour explorer ! HTML / CSS</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>N'hésitez pas à me contacter via ce formulaire :</p>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        
+        <div class="social-icons">
+            <a href="mailto:hamzareguigines@gmail.com">
+                <img src="pngtree-email-vector-icon-png-image_4279324.jpg" alt="Email">
+            </a>
+            <a href="https://www.instagram.com/_simplyines">
+                <img src="images.png" alt="instagram">
+            </a>
+            <a href="tel:+213659278618">
+                <img src="85353170-icône-de-téléphone-premium-ou-logo-dans-le-style-de-ligne-signe-de-haute-qualité-et-symbole-sur-un.jpg" alt="Téléphone">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Workshop Tech</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
